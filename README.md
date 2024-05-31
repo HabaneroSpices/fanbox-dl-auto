@@ -1,6 +1,8 @@
+### README.md
+
 # Fanbox Downloader
 
-This script automates the downloading of images from Fanbox creators and sends notifications to a Discord webhook. It can also archive downloaded images and move them to a specified location where a webserver can serve them. The url for downloading the archive will be appended to the discord webhook message.
+This script automates the downloading of images from Fanbox creators and sends notifications to a Discord webhook. It can also archive downloaded images and move them to a specified location.
 
 ## Installation
 
@@ -41,6 +43,11 @@ This script automates the downloading of images from Fanbox creators and sends n
        "archive": true
      }
    ]
+   ```
+
+6. **Download the `fanbox-dl` binary that matches your architecture from [here](https://github.com/hareku/fanbox-dl/releases/latest) and place it in the root directory of the repository (side by side with `app.js`):**
+   ```bash
+   chmod +x fanbox-dl
    ```
 
 ## Running the Script
