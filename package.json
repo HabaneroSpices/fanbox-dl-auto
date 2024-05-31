@@ -1,0 +1,21 @@
+{
+  "name": "fanbox-dl-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "discord-webhook-node": "^1.1.8",
+    "fs": "^0.0.1-security",
+    "winston": "^3.13.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

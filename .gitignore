@@ -1,0 +1,8 @@
+secret/
+images/
+node_modules/
+config.json
+creators.json
+download.log
+fanbox-dl
+package-lock.json
